@@ -3,7 +3,7 @@ package org.jsp.urlShortening.model;
 public class UrlDto
 {
     private String url;
-    private String expirationDate;  //optional
+    private String expirationDate; 
 
     public UrlDto(String url, String expirationDate) {
         this.url = url;
